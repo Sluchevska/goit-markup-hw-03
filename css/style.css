@@ -78,6 +78,7 @@ body {
 .hero {
   background-color: #2f303a;
   color: var(--hero-color);
+  text-align: center;
 }
 
 .hero-text {
