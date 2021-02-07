@@ -24,6 +24,16 @@ body {
   overflow: hidden;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*Header*/
 .logo {
   color: var(--accent-color);
@@ -76,12 +86,19 @@ body {
 
 /*Hero*/
 .hero {
+  width: 1600px;
+  margin-top: 0;
+  margin-bottom: 94px;
   background-color: #2f303a;
   color: var(--hero-color);
   text-align: center;
 }
 
 .hero-text {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  padding-left: 452px;
+  padding-right: 452px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -91,6 +108,7 @@ body {
 }
 
 .primary-btn {
+  display: inline-block;
   background-color: var(--accent-color);
   color: var(--hero-color);
   font-weight: 700;
@@ -120,6 +138,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  width: 1170px;
+  outline: 1px solid palevioletred;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*What We Do*/
 .whatwedo {
   color: var(--primary-text-color);
@@ -135,7 +162,8 @@ body {
   background-color: #f5f4fa;
 }
 
-.ourteam {
+.ourteam,
+.our-clients {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -158,6 +186,13 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.ot-soclinks:hover,
+.ot-soclinks:focus {
+  border: 1px solid var(--accent-color);
+  border-radius: 50%;
+  background-color: var(--accent-color);
 }
 
 /*Footer*/
@@ -184,6 +219,25 @@ body {
 .email-address,
 .tel-address {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--hero-color);
+}
+
+.join-social {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+
+.join-social:focus,
+.join-social:hover {
+  background-color: var(--accent-color);
 }
 
 /*Portfolio buttons*/
