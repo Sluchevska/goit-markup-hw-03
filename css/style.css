@@ -6,6 +6,8 @@
 }
 
 body {
+  width: 1600px;
+
   background-color: var(--hero-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -86,9 +88,6 @@ ul {
 
 /*Hero*/
 .hero {
-  width: 1600px;
-  margin-top: 0;
-  margin-bottom: 94px;
   background-color: #2f303a;
   color: var(--hero-color);
   text-align: center;
@@ -96,9 +95,9 @@ ul {
 
 .hero-text {
   padding-top: 200px;
-  padding-bottom: 30px;
   padding-left: 452px;
   padding-right: 452px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -108,7 +107,12 @@ ul {
 }
 
 .primary-btn {
+  border-radius: 4px;
+  padding: 10px 32px;
   display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 200px;
+
   background-color: var(--accent-color);
   color: var(--hero-color);
   font-weight: 700;
@@ -139,12 +143,15 @@ ul {
 }
 
 .container {
-  width: 1170px;
-  outline: 1px solid palevioletred;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-top: 0;
-  margin-bottom: 0;
+  width: 1200px;
+  outline: 3px solid rgb(116, 216, 112);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.whywe-container {
+  margin-top: 94px;
 }
 
 /*What We Do*/
@@ -157,7 +164,17 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.wedo-container {
+  margin-top: 94px;
+}
+
 /*Our Team*/
+
+.team-container {
+  margin-top: 94px;
+  padding-top: 94px;
+}
+
 .ourteam-section {
   background-color: #f5f4fa;
 }
@@ -193,6 +210,10 @@ ul {
   border: 1px solid var(--accent-color);
   border-radius: 50%;
   background-color: var(--accent-color);
+}
+
+.client-container {
+  margin-top: 94px;
 }
 
 /*Footer*/
@@ -238,6 +259,10 @@ ul {
 .join-social:focus,
 .join-social:hover {
   background-color: var(--accent-color);
+}
+
+.footer-container {
+  margin-top: 94px;
 }
 
 /*Portfolio buttons*/
