@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 1600;
+  width: 1600px;
 
   background-color: var(--hero-color);
   color: var(--primary-text-color);
@@ -41,6 +41,10 @@ ul {
 }
 
 /*Header*/
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
 
 .main-nav {
   display: flex;
@@ -196,6 +200,7 @@ ul {
 
 .container {
   width: 1200px;
+
   /* outline: 3px solid rgb(116, 216, 112); */
   padding-left: 15px;
   padding-right: 15px;
@@ -387,10 +392,36 @@ ul {
   display: flex;
   padding-inline-start: 0;
   margin-top: 20px;
+
   justify-content: space-between;
 }
 
 /*Portfolio buttons*/
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.btn-box .item {
+  margin-right: 8px;
+}
+
+.portf-btn {
+  display: inline-block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: none;
+}
+
+.btn-box .item:last-child {
+  margin-right: 0;
+}
+
 .portf-btn:hover,
 .portf-btn:focus {
   background-color: var(--accent-color);
@@ -403,6 +434,36 @@ ul {
 }
 
 /*Portfolio main*/
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.project-box {
+  padding-inline-start: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding-bottom: 94px;
+}
+
+.project-box .item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.project-text {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border: 1px solid #eeeeee;
+  box-shadow: var(--text-color);
+}
 
 .portf-project {
   color: var(--primary-text-color);
