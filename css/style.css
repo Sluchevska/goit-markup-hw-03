@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 1600px;
+  width: 1600;
 
   background-color: var(--hero-color);
   color: var(--primary-text-color);
@@ -196,7 +196,7 @@ ul {
 
 .container {
   width: 1200px;
-  outline: 3px solid rgb(116, 216, 112);
+  /* outline: 3px solid rgb(116, 216, 112); */
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
@@ -204,10 +204,13 @@ ul {
 
 .whywe-container {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*What We Do*/
 .whatwedo {
+  margin-bottom: 50px;
+
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -217,7 +220,7 @@ ul {
 }
 
 .wedo-container {
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .wedo-box {
@@ -231,13 +234,9 @@ ul {
 
 /*Our Team*/
 
-.team-container {
-  padding-top: 94px;
-}
-
 .team-box {
   display: flex;
-  padding-top: 94px;
+  margin-top: 50px;
   padding-inline-start: 0;
 }
 
@@ -251,6 +250,8 @@ ul {
 
 .ourteam-section {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .ourteam,
@@ -302,6 +303,7 @@ ul {
 
 .client-container {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .clients-box {
@@ -366,10 +368,6 @@ ul {
 .join-social:focus,
 .join-social:hover {
   background-color: var(--accent-color);
-}
-
-.footer-container {
-  padding-top: 94px;
 }
 
 .foot-box {
