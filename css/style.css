@@ -177,6 +177,7 @@ ul {
 
 .advantages {
   margin-bottom: 10px;
+
   color: var(--primary-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -202,7 +203,7 @@ ul {
 }
 
 .whywe-container {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 /*What We Do*/
@@ -210,13 +211,13 @@ ul {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.63;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .wedo-container {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .wedo-box {
@@ -231,7 +232,7 @@ ul {
 /*Our Team*/
 
 .team-container {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .team-box {
@@ -257,7 +258,7 @@ ul {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.63;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -300,7 +301,7 @@ ul {
 }
 
 .client-container {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .clients-box {
@@ -368,8 +369,7 @@ ul {
 }
 
 .footer-container {
-  margin-top: 94px;
-  padding-top: 60px;
+  padding-top: 94px;
 }
 
 .foot-box {
