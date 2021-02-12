@@ -6,8 +6,6 @@
 }
 
 body {
-  /* width: 1600px; */
-
   background-color: var(--hero-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -124,16 +122,14 @@ ul {
 
 /*Hero*/
 .hero {
+  padding-top: 200px;
+
   background-color: #2f303a;
   color: var(--hero-color);
   text-align: center;
 }
 
 .hero-text {
-  padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -327,6 +323,9 @@ ul {
 
 /*Footer*/
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: #2f303a;
 }
 
@@ -352,6 +351,8 @@ ul {
 }
 
 .join-us {
+  margin-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -361,8 +362,7 @@ ul {
 }
 
 .joinus-box {
-  padding-top: 72px;
-  padding-bottom: 100px;
+  margin-left: 70px;
 }
 
 .join-social {
@@ -377,11 +377,7 @@ ul {
 
 .foot-box {
   display: flex;
-}
-
-.add-box {
-  margin-right: 70px;
-  padding-top: 60px;
+  align-items: baseline;
 }
 
 .post-box {
@@ -391,7 +387,6 @@ ul {
 .join-box {
   display: flex;
   padding-inline-start: 0;
-  margin-top: 20px;
 
   justify-content: space-between;
 }
